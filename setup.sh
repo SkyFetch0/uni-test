@@ -13,7 +13,7 @@ if [ -d "$PROJECT_DIR" ]; then
     
     # Docker container'ı durdur
     echo "🛑 Container durduruluyor..."
-    docker-compose down 2>/dev/null || true
+    docker compose down 2>/dev/null || true
     
     # Git pull
     echo "📥 En son kod çekiliyor..."
@@ -27,10 +27,10 @@ fi
 
 # Docker build ve start
 echo "🔨 Docker image oluşturuluyor..."
-docker-compose build
+docker compose build
 
 echo "▶️ Container başlatılıyor..."
-docker-compose up -d
+docker compose up -d
 
 echo "✅ Kurulum tamamlandı!"
 echo "🌐 Web sitesi: http://localhost:5000"
