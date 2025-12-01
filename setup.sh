@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/SkyFetch0/github-demo-website"
-PROJECT_DIR="github-demo-website"
+REPO_URL="https://github.com/SkyFetch0/uni-test"
+PROJECT_DIR="uni-test"
 
 echo "🚀 GitHub Demo Website Kurulum/Güncelleme"
 echo "=========================================="
