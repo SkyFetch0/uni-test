@@ -11,7 +11,7 @@ def home():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>GitHub Demo</title>
+        <title>Hello World/title>
         <style>
             body { font-family: Arial; margin: 50px; background: #f5f5f5; }
             .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; }
